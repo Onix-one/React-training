@@ -48,7 +48,7 @@ export default class DictionaryPage extends Component {
   render() {
     return (
       <div className="col-5">
-        <DictionaryHeader wordsCount={this.state.data.length}/>
+        <DictionaryHeader wordsCount={this.state.data.length} />
         <DictionarFilter />
         <DictionarList words={this.state.data} onDelete={this.deleteWord} />
         <WordAddForm toAdd={this.addWord} />

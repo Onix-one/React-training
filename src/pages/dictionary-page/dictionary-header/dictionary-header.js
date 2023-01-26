@@ -1,6 +1,6 @@
 import "./dictionary-header.css";
 
-export default function DictionaryHeader({wordsCount}) {
+export default function DictionaryHeader({ wordsCount }) {
   return (
     <div className="row py-2">
       <div className="col-auto">
