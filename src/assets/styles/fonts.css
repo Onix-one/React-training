@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700|Open+Sans:400,600,700&display=swap");
+
+:root {
+  --text-size-basic: 10px;
+
+  --text-size-xxs: 1.2rem;
+  --text-size-xs: 1.4rem;
+  --text-size-s: 1.6rem;
+  --text-size: 1.8rem;
+  --text-size-l: 2rem;
+  --text-size-xl: 2.8rem;
+  --text-size-xxl: 5rem;
+
+  --font-sans: "Open Sans", "Arial", sans-serif;
+  --font-display: "Comfortaa", "Arial", cursive;
+
+  --line-height-xxs: 1.4rem;
+  --line-height-xs: 1.6rem;
+  --line-height-s: 1.8rem;
+  --line-height: 2rem;
+  --line-height-l: 2.2rem;
+  --line-height-xl: 2.6rem;
+
+  --font-family-primary: "Open Sans", "Arial", sans-serif;
+  --font-family-secondary: "Comfortaa", "Arial", cursive;
+
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-regular: 400;
+
+  --font-size-xxs: 12px;
+  --font-size-xs: 13px;
+  --font-size-s: 14px;
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-xl: 22px;
+}

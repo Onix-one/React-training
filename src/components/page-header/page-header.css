@@ -1,0 +1,16 @@
+.page-header {
+  position: fixed;
+  min-height: 64px;
+  background-color: white;
+  color: black;
+  height: 64px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0.6rem 2rem;
+  z-index: 1;
+  width: 100%;
+}
+
+.row {
+  top: 10px !important;
+}

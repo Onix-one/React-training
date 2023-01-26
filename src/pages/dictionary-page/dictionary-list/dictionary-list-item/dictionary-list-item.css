@@ -1,0 +1,43 @@
+.word-base {
+  padding-left: 0.5rem !important;
+  font-size: large;
+  color: var(--color-main);
+}
+
+.word-translation {
+  padding-left: 1.5rem !important;
+  font-size: medium;
+}
+
+.row-active:hover {
+  border-radius: 5px;
+  background-color: #f5f4f8;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.small-icon {
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 5px;
+  display: inline;
+  text-align: center;
+  vertical-align: bottom !important;
+  color: rgb(63, 63, 63);
+  flex: 0 0 auto;
+  width: 8.33333333%;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.small-icon:hover {
+  background-color: rgb(243, 235, 235);
+}
+
+.marked {
+  color: #622fd9;
+}

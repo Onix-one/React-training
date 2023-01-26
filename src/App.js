@@ -1,12 +1,17 @@
-import './App.css';
+import PageHeader from "../src/components/page-header/page-header";
+import PageBody from "../src/components/page-body/page-body";
+import "../src/assets/styles/colors.css";
+import "../src/assets/styles/fonts.css";
+import "./App.css";
 
-
-function App() {
+export default function App() {
+  console.log("App is runing!");
   return (
     <div className="App">
-      <div className='justify-content-center'>Hello</div>
+      <div className="card-body">
+        <PageHeader></PageHeader>
+        <PageBody></PageBody>
+      </div>
     </div>
   );
 }
-
-export default App;

@@ -1,0 +1,21 @@
+.button {
+  height: 38px;
+  border-radius: 5px;
+  font-size: var(--font-size-l);
+  font-family: var(--font-family-primary);
+  padding: 0 16px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  color: var(--color-gold--shiny);
+  background: var(--color-white);
+}
+
+.button:hover {
+  color: var(--color-white);
+  background: var(--color-gold--dark);
+  box-shadow: 0px 3px 8px var(--color-gold--shiny);
+}

@@ -1,0 +1,19 @@
+.form-control {
+  border-radius: 5px !important;
+  border-color: var(--color-main--light) !important;
+}
+
+.form-control:focus {
+  border-color: var(--color-main--light) !important;
+  box-shadow: 0px 0px 10px var(--color-main) !important;
+}
+
+.form-select {
+  border-radius: 5px !important;
+  border-color: var(--color-main--light) !important;
+}
+
+.form-select:focus {
+  border-color: var(--color-main--light) !important;
+  box-shadow: 0px 0px 10px var(--color-main) !important;
+}
